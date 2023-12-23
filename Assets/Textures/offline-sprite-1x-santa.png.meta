@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_26
+      name: offline-sprite-1x-santa_11
       rect:
         serializedVersion: 2
         x: 683
@@ -362,10 +362,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_27
+      name: offline-sprite-1x-santa_12
       rect:
         serializedVersion: 2
-        x: 727
+        x: 728
         y: 19
         width: 38
         height: 47
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_28
+      name: offline-sprite-1x-santa_13
       rect:
         serializedVersion: 2
         x: 771
@@ -404,10 +404,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_29
+      name: offline-sprite-1x-santa_14
       rect:
         serializedVersion: 2
-        x: 815
+        x: 816
         y: 19
         width: 38
         height: 47
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_30
+      name: offline-sprite-1x-santa_15
       rect:
         serializedVersion: 2
         x: 859
@@ -446,7 +446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_31
+      name: offline-sprite-1x-santa_16
       rect:
         serializedVersion: 2
         x: 901
@@ -467,7 +467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_32
+      name: offline-sprite-1x-santa_17
       rect:
         serializedVersion: 2
         x: 959
@@ -488,7 +488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_33
+      name: offline-sprite-1x-santa_18
       rect:
         serializedVersion: 2
         x: 1009
@@ -509,7 +509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: offline-sprite-1x-santa_44
+      name: offline-sprite-1x-santa_19
       rect:
         serializedVersion: 2
         x: 2
@@ -543,14 +543,15 @@ TextureImporter:
       offline-sprite-1x-santa_0: 212270995
       offline-sprite-1x-santa_1: 720081057
       offline-sprite-1x-santa_10: -803581164
-      offline-sprite-1x-santa_11: -600259956
-      offline-sprite-1x-santa_13: 67969846
-      offline-sprite-1x-santa_14: 503088888
-      offline-sprite-1x-santa_15: -916368574
-      offline-sprite-1x-santa_16: -1969457778
-      offline-sprite-1x-santa_17: -2146058339
-      offline-sprite-1x-santa_18: 184768840
-      offline-sprite-1x-santa_19: 1927856964
+      offline-sprite-1x-santa_11: -1576771559
+      offline-sprite-1x-santa_12: -299743942
+      offline-sprite-1x-santa_13: -1171434246
+      offline-sprite-1x-santa_14: -701477928
+      offline-sprite-1x-santa_15: -1135524424
+      offline-sprite-1x-santa_16: 1081170597
+      offline-sprite-1x-santa_17: -299743942
+      offline-sprite-1x-santa_18: -1180281746
+      offline-sprite-1x-santa_19: -1611242777
       offline-sprite-1x-santa_2: -1812354058
       offline-sprite-1x-santa_20: 1447445242
       offline-sprite-1x-santa_21: -428955536
@@ -558,32 +559,23 @@ TextureImporter:
       offline-sprite-1x-santa_23: 1638882057
       offline-sprite-1x-santa_24: 535764265
       offline-sprite-1x-santa_25: 133748151
-      offline-sprite-1x-santa_26: -1576771559
-      offline-sprite-1x-santa_27: 1520337709
-      offline-sprite-1x-santa_28: -1171434246
-      offline-sprite-1x-santa_29: -701477928
       offline-sprite-1x-santa_3: -1048824007
-      offline-sprite-1x-santa_30: -1135524424
-      offline-sprite-1x-santa_31: 1081170597
-      offline-sprite-1x-santa_32: -299743942
-      offline-sprite-1x-santa_33: -1180281746
-      offline-sprite-1x-santa_34: -902996283
-      offline-sprite-1x-santa_35: -1071974898
-      offline-sprite-1x-santa_36: 1770559781
-      offline-sprite-1x-santa_37: -1763070090
-      offline-sprite-1x-santa_38: 1417957819
-      offline-sprite-1x-santa_39: 1595179989
-      offline-sprite-1x-santa_4: 667682683
-      offline-sprite-1x-santa_40: -1658788104
-      offline-sprite-1x-santa_41: -113118574
-      offline-sprite-1x-santa_42: -1082998818
-      offline-sprite-1x-santa_43: -1859522251
-      offline-sprite-1x-santa_44: -1611242777
-      offline-sprite-1x-santa_5: 331106676
-      offline-sprite-1x-santa_6: 388226088
-      offline-sprite-1x-santa_7: 1379173779
-      offline-sprite-1x-santa_8: -424842872
-      offline-sprite-1x-santa_9: 432104257
+      offline-sprite-1x-santa_34: -1071974898
+      offline-sprite-1x-santa_35: 1770559781
+      offline-sprite-1x-santa_36: -1763070090
+      offline-sprite-1x-santa_37: 1417957819
+      offline-sprite-1x-santa_38: 1595179989
+      offline-sprite-1x-santa_39: 667682683
+      offline-sprite-1x-santa_4: -1658788104
+      offline-sprite-1x-santa_40: -113118574
+      offline-sprite-1x-santa_41: -1082998818
+      offline-sprite-1x-santa_42: -1859522251
+      offline-sprite-1x-santa_43: -1611242777
+      offline-sprite-1x-santa_5: 388226088
+      offline-sprite-1x-santa_6: 1379173779
+      offline-sprite-1x-santa_7: -424842872
+      offline-sprite-1x-santa_8: 432104257
+      offline-sprite-1x-santa_9: 1520337709
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

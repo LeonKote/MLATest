@@ -8,13 +8,16 @@ public class GameManager : MonoBehaviour
 	[SerializeField]
 	private GameObject road;
 	[SerializeField]
-	private GameObject player;
+	private PlayerController player;
 	[SerializeField]
 	private Text scoreText;
 	[SerializeField]
 	private Text highScoreText;
 	[SerializeField]
+	private Text isJumpingText;
+	[SerializeField]
 	private GameObject[] obstaclePrefabs;
+	private CloudManager cloudManager;
 
 	[field: SerializeField]
 	public float InitialSpeed { get; set; } = 8.0f;
@@ -45,7 +48,8 @@ public class GameManager : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		Application.runInBackground = true;
+		cloudManager = GetComponent<CloudManager>();
+
 		Speed = InitialSpeed;
 		score = 0;
 		StartCoroutine(SpawnObstacles());
@@ -64,7 +68,7 @@ public class GameManager : MonoBehaviour
 			obstacles.Add(obstacle);
 			if (closestObstacle == null)
 				closestObstacle = obstacle;
-            yield return new WaitForSeconds(Random.Range(0.7f, 1.5f));
+			yield return new WaitForSeconds(Random.Range(0.7f, 1.5f));
 		}
 	}
 
@@ -80,7 +84,9 @@ public class GameManager : MonoBehaviour
 		Speed += Time.deltaTime * SpeedMultiplier;
 		score += Speed * Time.deltaTime;
 
+		cloudManager.DoUpdate();
 		UpdateScoreText();
+		UpdateIsJumpingText();
 	}
 
 	private void MoveRoad()
@@ -114,6 +120,8 @@ public class GameManager : MonoBehaviour
 		{
 			OnSuccessJump.Invoke();
 			closestObstacle = GetClosestObstacle();
+			if (closestObstacle == null)
+				DistToObstacle = 12;
 		}
 	}
 
@@ -137,6 +145,7 @@ public class GameManager : MonoBehaviour
 			Destroy(obstacles[i]);
 
 		obstacles.Clear();
+		cloudManager.Reset();
 
 		Speed = InitialSpeed;
 		score = 0;
@@ -154,5 +163,10 @@ public class GameManager : MonoBehaviour
 			return;
 		highScore = score;
 		highScoreText.text = "HI " + ((int)score).ToString("D5");
+	}
+
+	private void UpdateIsJumpingText()
+	{
+		isJumpingText.text = "isJumping: " + player.IsJumping;
 	}
 }
