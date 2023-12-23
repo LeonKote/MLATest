@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: 1f4dab76ca36edf4185557e36e9e317c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0130e63f5ebbf864790b1feddf044233
+      internalID: 212270995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 19
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15541b90d49a11459cb2e2e461099ea
+      internalID: 720081057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 53
+        width: 45
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5507666736cca8647987f413f8dc4958
+      internalID: -1812354058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 30
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0193ba0b7d6c6f74b9030f7197ff7cd1
+      internalID: -1048824007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 30
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b03adc0558b07c4fb0164a5e9d83b28
+      internalID: 667682683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 31
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a478abb4f13ddf47b7441b332912a30
+      internalID: 331106676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 31
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab106a23132f044aa42f9902d4ee6b9
+      internalID: 388226088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 18
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0aadc8f8292c845987a67c4aaa4b4b
+      internalID: 1379173779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 18
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28fb05e620fd754e9f63f2c7e8dba06
+      internalID: -424842872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_9
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 18
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59dbe8f8ecee974caa7fc3574fa2d86
+      internalID: 432104257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 18
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cf6b2a25dadd743ad23406ffed9722
+      internalID: -803581164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_26
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 19
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a1c08173bb32b47801aa7d77b6f186
+      internalID: -1576771559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_27
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 19
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd09454271dd354a93b8edfafe77391
+      internalID: 1520337709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_28
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 19
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98e830f2c6db484eac8909b861a83bc
+      internalID: -1171434246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_29
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 19
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884a4d93f67a8a498e9751c802cb5e0
+      internalID: -701477928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_30
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 19
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff7f09db6b260e45a012e47f0393cbf
+      internalID: -1135524424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_31
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 19
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c21fdd726483d4aa5765e86a831e2c
+      internalID: 1081170597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_32
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 19
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40720a1dfe8d46641be61501c604cfd3
+      internalID: -299743942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_33
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 19
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eaffc517692164093584d1c41fa112
+      internalID: -1180281746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: offline-sprite-1x-santa_44
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 1202
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08a4a95a7af262499c2c101f255c98e
+      internalID: -1611242777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      offline-sprite-1x-santa_0: 212270995
+      offline-sprite-1x-santa_1: 720081057
+      offline-sprite-1x-santa_10: -803581164
+      offline-sprite-1x-santa_11: -600259956
+      offline-sprite-1x-santa_13: 67969846
+      offline-sprite-1x-santa_14: 503088888
+      offline-sprite-1x-santa_15: -916368574
+      offline-sprite-1x-santa_16: -1969457778
+      offline-sprite-1x-santa_17: -2146058339
+      offline-sprite-1x-santa_18: 184768840
+      offline-sprite-1x-santa_19: 1927856964
+      offline-sprite-1x-santa_2: -1812354058
+      offline-sprite-1x-santa_20: 1447445242
+      offline-sprite-1x-santa_21: -428955536
+      offline-sprite-1x-santa_22: 250379586
+      offline-sprite-1x-santa_23: 1638882057
+      offline-sprite-1x-santa_24: 535764265
+      offline-sprite-1x-santa_25: 133748151
+      offline-sprite-1x-santa_26: -1576771559
+      offline-sprite-1x-santa_27: 1520337709
+      offline-sprite-1x-santa_28: -1171434246
+      offline-sprite-1x-santa_29: -701477928
+      offline-sprite-1x-santa_3: -1048824007
+      offline-sprite-1x-santa_30: -1135524424
+      offline-sprite-1x-santa_31: 1081170597
+      offline-sprite-1x-santa_32: -299743942
+      offline-sprite-1x-santa_33: -1180281746
+      offline-sprite-1x-santa_34: -902996283
+      offline-sprite-1x-santa_35: -1071974898
+      offline-sprite-1x-santa_36: 1770559781
+      offline-sprite-1x-santa_37: -1763070090
+      offline-sprite-1x-santa_38: 1417957819
+      offline-sprite-1x-santa_39: 1595179989
+      offline-sprite-1x-santa_4: 667682683
+      offline-sprite-1x-santa_40: -1658788104
+      offline-sprite-1x-santa_41: -113118574
+      offline-sprite-1x-santa_42: -1082998818
+      offline-sprite-1x-santa_43: -1859522251
+      offline-sprite-1x-santa_44: -1611242777
+      offline-sprite-1x-santa_5: 331106676
+      offline-sprite-1x-santa_6: 388226088
+      offline-sprite-1x-santa_7: 1379173779
+      offline-sprite-1x-santa_8: -424842872
+      offline-sprite-1x-santa_9: 432104257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
