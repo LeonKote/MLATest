@@ -167,6 +167,6 @@ public class GameManager : MonoBehaviour
 
 	private void UpdateIsJumpingText()
 	{
-		isJumpingText.text = "isJumping: " + player.IsJumping;
+		isJumpingText.text = "isJumping: " + player.IsJumping.ToString().ToLower();
 	}
 }
